@@ -50,7 +50,8 @@
 
 /* WORK*/
 
-#work-container {
+#work-container,
+#lab-container {
   min-height: 100vh;
   padding: 80px 0;
   max-width: 50%;
@@ -60,23 +61,27 @@
   flex-wrap: wrap;
 }
 
-#work-container h2 {
+#work-container h2,
+#lab-container h2 {
   color: rgb(207,207,207);
   font-size: 2em;
   font-weight: 800;
 }
 
-#work-container p {
+#work-container p,
+#lab-container p {
   color: rgb(117,117,117);
   padding-top: 10px;
   line-height: 1.8em;
 }
 
-.work-example-container {
+.work-example-container,
+.lab-example-container {
   width: 48%;
 }
 
-.work-thumbnail {
+.work-thumbnail,
+.lab-thumbnail {
   width: 100%;
 }
 
