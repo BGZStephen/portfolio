@@ -59,7 +59,7 @@ p {
 #lab-container {
   min-height: 100vh;
   padding: 80px 0;
-  max-width: 65%;
+  max-width: 90%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
