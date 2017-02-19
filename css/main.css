@@ -52,8 +52,12 @@
 
 #work-container {
   min-height: 100vh;
-  padding: 80px 20px 0 20px;
+  padding: 80px 0;
   max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  flex-wrap: wrap;
 }
 
 #work-container h2 {
@@ -66,6 +70,19 @@
   color: rgb(117,117,117);
   padding-top: 10px;
   line-height: 1.8em;
+}
+
+.work-example-container {
+  width: 48%;
+}
+
+.work-thumbnail {
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  margin-bottom: 10px;
 }
 
 /* END WORK */
