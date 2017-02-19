@@ -13,9 +13,16 @@ p {
   font-size: 1.4em;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
 /* MAIN CONTAINER */
 
-#main-container {
+#main-container,
+#home {
   background: rgb(42,42,42);
   display: flex;
   justify-content: center;
@@ -24,6 +31,33 @@ p {
 }
 
 /* END MAIN CONTAINER */
+
+/* MAIN NAV */
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(42,42,42);
+  width: 100%;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#main-nav ul li {
+  list-style: none;
+  padding: 20px 50px;
+  color: white;
+  letter-spacing: .1em;
+}
+
+/* MAIN NAV end */
 
 /* INTRO */
 
@@ -55,8 +89,8 @@ p {
 
 /* WORK*/
 
-#work-container,
-#lab-container {
+#work-examples,
+#lab-examples {
   min-height: 100vh;
   padding: 80px 0;
   max-width: 90%;
@@ -67,16 +101,16 @@ p {
   text-align: center;
 }
 
-#work-container h2,
-#lab-container h2 {
+#work-examples h2,
+#lab-examples h2 {
   color: rgb(207,207,207);
   font-size: 2em;
   font-weight: 800;
   margin-top: 20px;
 }
 
-#work-container p,
-#lab-container p {
+#work-examples p,
+#lab-examples p {
   color: rgb(117,117,117);
   padding-top: 10px;
   line-height: 1.8em;
@@ -104,8 +138,8 @@ h3 {
 /* END WORK */
 
 @media (min-width: 1024px) {
-  #work-container,
-  #lab-container {
+  #work-examples,
+  #lab-examples {
     max-width: 65%;
     flex-direction: row;
     text-align: left;
@@ -116,9 +150,10 @@ h3 {
     border-bottom: none;
   }
 
-  #work-container h2,
-  #lab-container h2 {
+  #work-examples h2,
+  #lab-examples h2 {
     font-size: 1.5em;
+    width: 100%;
   }
 
   p {

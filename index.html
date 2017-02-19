@@ -3,19 +3,29 @@
 <head>
   <title>Portfolio | Stephen Wright</title>
   <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
   <div id="main-container">
+    <div id="home">
+      <nav id="main-nav">
+      <ul>
+        <a href="#home"><li>HOME</li></a>
+        <a href="#work-examples"><li>WORK EXAMPLES</li></a>
+        <a href="#lab-examples"><li>CODE LAB</li></a>
+      </ul>
+      </nav>
+    </div>
     <div id="intro-container">
       <h1>Hello, my name is Stephen Wright.</h1>
       <p>I'm an aspiring front-end developer and JavaScript enthusiast.
-      Check out my work samples in the work section and my code snippets under my code lab.
+      Check out my <a href="#work-examples">work samples</a> in the work section and my code snippets under my <a href="#lab-examples">code lab</a>.
       You can reach me on stephen@stephenwright.co.uk if you have any questions.</p>
     </div>
-    <div id="work-container">
+    <div id="work-examples">
       <h2>Work</h2>
       <p>Below you'll find a selection of some of my most recent works, they are a collection of websites, small apps and mock-ups to test my HTML / CSS / JS skills</p>
       <div class="work-example-container">
@@ -39,7 +49,7 @@
         <p>Responsive blog post template which displays user author details and likes / shares / categories</p>
       </div>
     </div>
-    <div id="lab-container">
+    <div id="lab-examples">
       <h2>Code Lab</h2>
       <p>Below is a selection of small apps i've been working on, mainly using OO / Vanilla JavaScript to improve my skills with JS development</p>
       <div class="lab-example-container">
@@ -59,5 +69,6 @@
       </div>
     </div>
   </div>
+  <script src="js/main.js"></script>
 </body>
 </html>
