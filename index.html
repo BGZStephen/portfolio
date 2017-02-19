@@ -13,16 +13,16 @@
     <div id="home">
       <nav id="main-nav">
       <ul>
-        <a href="#home"><li>HOME</li></a>
-        <a href="#work-examples"><li>WORK EXAMPLES</li></a>
-        <a href="#lab-examples"><li>CODE LAB</li></a>
+        <a class="nav-link" href="#home"><li>HOME</li></a>
+        <a class="nav-link" href="#work-examples"><li>WORK EXAMPLES</li></a>
+        <a class="nav-link" href="#lab-examples"><li>CODE LAB</li></a>
       </ul>
       </nav>
     </div>
     <div id="intro-container">
       <h1>Hello, my name is Stephen Wright.</h1>
       <p>I'm an aspiring front-end developer and JavaScript enthusiast.
-      Check out my <a href="#work-examples">work samples</a> in the work section and my code snippets under my <a href="#lab-examples">code lab</a>.
+      Check out my <a class="nav-link" href="#work-examples">work samples</a> in the work section and my code snippets under my <a <a class="nav-link" href="#lab-examples">code lab</a>.
       You can reach me on stephen@stephenwright.co.uk if you have any questions.</p>
     </div>
     <div id="work-examples">
@@ -30,22 +30,54 @@
       <p>Below you'll find a selection of some of my most recent works, they are a collection of websites, small apps and mock-ups to test my HTML / CSS / JS skills</p>
       <div class="work-example-container">
         <h3>Basic Portfolio</h3>
-        <a href="./work-samples/aerial/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-aerial.png"></img></a>
+          <div class="image-container">
+            <a href="./work-samples/aerial/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-aerial.png"></img></a>
+            <div class="overlay">
+              <div class="overlay-links">
+                <a href="https://github.com/BGZStephen/mock-ups/tree/master/aerial" target="_blank"><p>CODE</p></a>
+                <a href="./work-samples/aerial/index.html" target="_blank"><p>VISIT</p></a>
+              </div>
+            </div>
+          </div>
         <p>Simple, flat responsive build including social media icons</p>
       </div>
       <div class="work-example-container">
         <h3>e-Business Card</h3>
-        <a href="./work-samples/e-business-card/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-business-card.png"></img></a>
+        <div class="image-container">
+          <a href="./work-samples/e-business-card/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-business-card.png"></img></a>
+          <div class="overlay">
+            <div class="overlay-links">
+              <a href="https://github.com/BGZStephen/mock-ups/tree/master/e-business%20card" target="_blank"><p>CODE</p></a>
+              <a href="./work-samples/e-business-card/index.html" target="_blank"><p>VISIT</p></a>
+            </div>
+          </div>
+        </div>
         <p>Business card mock-up with social media links</p>
       </div>
       <div class="work-example-container">
         <h3>Forty Responsive build</h3>
-        <a href="./work-samples/forty/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-forty.png"></img></a>
+        <div class="image-container">
+          <a href="./work-samples/forty/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-forty.png"></img></a>
+          <div class="overlay">
+            <div class="overlay-links">
+              <a href="https://github.com/BGZStephen/mock-ups/tree/master/forty" target="_blank"><p>CODE</p></a>
+              <a href="./work-samples/forty/index.html" target="_blank"><p>VISIT</p></a>
+            </div>
+          </div>
+        </div>
         <p>Responsive single page theme, re-built from scratch by me.</p>
       </div>
       <div class="work-example-container">
         <h3>Responsive blog post template</h3>
-        <a href="./work-samples/future-imperfect/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-future.png"></img></a>
+        <div class="image-container">
+          <a href="./work-samples/future-imperfect/index.html" target="_blank"><img class="work-thumbnail" src="img/portfolio-future.png"></img></a>
+          <div class="overlay">
+            <div class="overlay-links">
+              <a href="https://github.com/BGZStephen/mock-ups/tree/master/future%20imperfect" target="_blank"><p>CODE</p></a>
+              <a href="./work-samples/future-imperfect/index.html" target="_blank"><p>VISIT</p></a>
+            </div>
+          </div>
+        </div>
         <p>Responsive blog post template which displays user author details and likes / shares / categories</p>
       </div>
     </div>
@@ -54,17 +86,41 @@
       <p>Below is a selection of small apps i've been working on, mainly using OO / Vanilla JavaScript to improve my skills with JS development</p>
       <div class="lab-example-container">
         <h3>FizzBuzz</h3>
-        <a href="./code-lab/fizzbuzz/index.html" target="_blank"><img class="lab-thumbnail" src="img/fizzbuzz.png"></img></a>
+        <div class="image-container">
+          <a href="./code-lab/fizzbuzz/index.html" target="_blank"><img class="lab-thumbnail" src="img/fizzbuzz.png"></img></a>
+          <div class="overlay">
+            <div class="overlay-links">
+              <a href="https://github.com/BGZStephen/fizzbuzz" target="_blank"><p>CODE</p></a>
+              <a href="./code-lab/fizzbuzz/index.html" target="_blank"><p>VISIT</p></a>
+            </div>
+          </div>
+        </div>
         <p>A classic coding challenge, FizzBuzz</p>
       </div>
       <div class="lab-example-container">
         <h3>Fibonacci Sequence</h3>
-        <a href="./code-lab/fibonacci-sequence/index.html" target="_blank"><img class="lab-thumbnail" src="img/fibonacci.png"></img></a>
+        <div class="image-container">
+          <a href="./code-lab/fibonacci-sequence/index.html" target="_blank"><img class="lab-thumbnail" src="img/fibonacci.png"></img></a>
+          <div class="overlay">
+            <div class="overlay-links">
+              <a href="https://github.com/BGZStephen/fibonacci-sequence" target="_blank"><p>CODE</p></a>
+              <a href="./code-lab/fibonacci-sequence/index.html" target="_blank"><p>VISIT</p></a>
+            </div>
+          </div>
+        </div>
         <p>A simple app to display the first 100 iterations of the fibonacci sequence</p>
       </div>
       <div class="lab-example-container">
         <h3>String Editor</h3>
-        <a href="./code-lab/stringeditor/index.html" target="_blank"><img class="lab-thumbnail" src="img/stringeditor.png"></img></a>
+        <div class="image-container">
+          <a href="./code-lab/stringeditor/index.html" target="_blank"><img class="lab-thumbnail" src="img/stringeditor.png"></img></a>
+          <div class="overlay">
+            <div class="overlay-links">
+              <a href="https://github.com/BGZStephen/string-editor" target="_blank"><p>CODE</p></a>
+              <a href="./code-lab/stringeditor/index.html" target="_blank"><p>VISIT</p></a>
+            </div>
+          </div>
+        </div>
         <p>A simple application with multiple uses, it allows a user to enter a string and provides options for altering the string.</p>
       </div>
     </div>

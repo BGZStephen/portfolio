@@ -13,7 +13,7 @@ p {
   font-size: 1.4em;
 }
 
-a {
+.nav-link {
   text-decoration: none;
   color: white;
   font-weight: bolder;
@@ -138,9 +138,71 @@ h3 {
 
 /* END WORK */
 
+/* OVERLAYS */
+
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+}
+
+.overlay-links {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
 @media (min-width: 768px) {
   nav {
   display: inline-flex;
+  }
+
+  .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    height: 0%;
+    width: 100%;
+    transition: .5s;
+    background-color: black;
+    opacity: .7;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .overlay-links {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.1s linear;
+    display: flex;
+    flex-direction: row;
+    transition-delay: .1s
+  }
+
+  .overlay-links a {
+    padding: 0px 50px;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: border .5s ease;
+  }
+
+  .overlay-links a:hover {
+    border: 5px solid red;
+  }
+
+  .overlay-links p {
+    color: white !important;
+    font-weight: bolder;
+    font-weight: 800;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -152,7 +214,7 @@ h3 {
   }
   .work-example-container,
   .lab-example-container {
-    max-width: 48%;
+    max-width: 49%;
     border-bottom: none;
   }
 
