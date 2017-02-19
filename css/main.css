@@ -42,6 +42,7 @@ nav {
   justify-content: space-around;
   background-color: rgb(42,42,42);
   width: 100%;
+  display: none;
 }
 
 #main-nav ul {
@@ -136,6 +137,11 @@ h3 {
 }
 
 /* END WORK */
+
+@media (min-width: 768px) {
+  nav {
+  display: inline-flex;
+}
 
 @media (min-width: 1024px) {
   #work-examples,
