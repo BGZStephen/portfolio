@@ -32,11 +32,11 @@ const workExamples = [
     `https://github.com/BGZStephen/mock-ups/tree/master/aerial`,
     `Simple, flat responsive build including social media icons`
   ],
-  [ `e-Business Card`,
-    `work-samples/e-business-card/index.html`,
-    `img/portfolio-business-card.png`,
-    `https://github.com/BGZStephen/mock-ups/tree/master/e-business%20card`,
-    `Business card mock-up with social media links`
+  [ `SaaS site re-build`,
+    `work-samples/saas-site/index.html`,
+    `img/portfolio-saas.png`,
+    `https://github.com/BGZStephen/mock-ups/tree/master/saas%20site`,
+    `SaaS Site rebuild based on LoyaltyLion (start-up)`
   ],
   [ `Forty Responsive build`,
     `work-samples/forty/index.html`,

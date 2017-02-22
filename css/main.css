@@ -111,6 +111,10 @@ nav {
   margin-top: 20px;
 }
 
+.image-container img {
+  max-height: 290px;
+}
+
 #work-examples p,
 #lab-examples p {
   color: rgb(117,117,117);
