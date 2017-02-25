@@ -112,13 +112,12 @@ nav {
 }
 
 .image-container img {
-  max-height: 290px;
+
 }
 
 #work-examples p,
 #lab-examples p {
   color: rgb(117,117,117);
-  padding-top: 10px;
   line-height: 1.8em;
 }
 
@@ -181,6 +180,7 @@ h3 {
   }
 
   .overlay-links {
+
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.1s linear;
@@ -190,17 +190,17 @@ h3 {
   }
 
   .overlay-links a {
-    padding: 0px 50px;
-    font-size: 2em;
+    padding: 10px 20px;
+    margin: 1em;
+    font-size: 1em;
     text-decoration: none;
-    margin: 20px;
     border-radius: 5px;
-    border: 3px solid white;
+    border: 0.1em solid white;
     transition: border .5s ease;
   }
 
   .overlay-links a:hover {
-    border: 5px solid red;
+    border: 0.1em solid red;
   }
 
   .overlay-links p {
