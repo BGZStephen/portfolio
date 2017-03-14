@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar {
+  min-width: 100%;
+  height: 50px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.navbar__logo {
+  position: absolute;
+  left: 15px;
+}
+
+.navbar__header {
+  font-size: 1.5em;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  background: #00ccbc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 1.3em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.head__image {
+  min-width: 100%;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+.head__image:before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  background-size: 100% auto;
+  top: -25%;
+  left: -20%;
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-image: url("../img/pizza.jpg");
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.header__logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 4em;
+  z-index: 15;
+  position: relative;
+}
+
+.header__intro {
+  font-size: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header__find {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.header__find__label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.header__find__input {
+  width: 70%;
+  padding: 12px;
+  border: none;
+  height: 45px;
+}
+
+.header__find__submit {
+  width: 30%;
+  padding: 12px;
+  background: #440063;
+  border: none;
+  color: white;
+  height: 45px;
+}

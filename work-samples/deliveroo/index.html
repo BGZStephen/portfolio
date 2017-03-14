@@ -3,19 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Deliveroo Mock-up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
     <div class="navbar">
-      <img class="navbar__logo">
+      <img class="navbar__logo" src="img/avatar.png">
       <span class="navbar__header">deliveroo</span>
     </div> <!-- navbar end -->
     <div class="header">
-      <img class="header__logo">
+      <div class="head__image">
+        <img class="header__logo" src="img/logo.png">
+      </div>
       <span class="header__intro">Your favourite restaurants, delivered fast to your door.</span>
       <form class="header__find">
-        <label for="postcode">Enter your postcode</label>
-        <input type="text" id="postcode" class="header__find__input" placeholder="E.E. WC1E 7HJ">
-        <input type="submit" id="order-submit" class="header__find__submit" value="Find Food">
+        <label for="postcode" class="header__find__label">Enter your postcode</label>
+        <input type="text" id="postcode" class="header__find__input" placeholder="E.E. WC1E 7HJ" /><input
+        type="submit" id="order-submit" class="header__find__submit" value="Find Food" />
       </form>
     </div> <!-- header end -->
     <div class="menu">
