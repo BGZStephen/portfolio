@@ -222,3 +222,68 @@
   text-decoration: none;
   color: black
 }
+
+/* work */
+
+.work {
+  max-width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.work__intro {
+  display: block;
+  margin: 20px 0 25px 0;
+  font-size: 1.8em;
+  width: 100%;
+}
+
+.work__ride {
+  width: 100%;
+  background: #ff3d3d;
+  color: white;
+}
+
+.work__img {
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 89%);
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 89%);
+}
+
+.work__head {
+  margin: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.work__description {
+  margin: 20px;
+}
+
+.work__button {
+  margin: 20px;
+  margin-top: 0;
+  background: #00ccbc;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+}
+
+.work__deliver,
+.work__hq {
+  margin-top: 20px;
+}
+
+.work__deliver {
+  background: #ff8100;
+  width: 100%;
+  color: white;
+}
+
+.work__hq {
+  background: #a0918a;
+  width: 100%;
+  color: white;
+}
