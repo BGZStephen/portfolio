@@ -452,24 +452,65 @@
   }
 
   .header__find__label {
-    display: block;
-    margin-bottom: 8px;
-    color: white;
-  }
-
-  .header__find__input {
-    width: 70%;
-    padding: 12px;
-    border: none;
-    height: 45px;
+    font-size: 1.3em;
+    font-weight: bold;
   }
 
   .header__find__submit {
-    width: 30%;
-    padding: 12px;
-    background: #440063;
-    border: none;
-    color: white;
-    height: 45px;
+    font-size: 1em;
   }
+
+  /* menu */
+
+  .menu__intro {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.8em;
+    width: 100%;
+  }
+
+  .menu__item__container {
+    text-align: center;
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  /* recommend */
+
+  .recommend__container {
+    width: calc(88% / 3);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .recommend__img {
+    width: 100%;
+    height: 160px;
+  }
+
+  .recommend__item__img__description {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .recommend__description {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+  }
+
+  .recommend__tagcloud {
+    font-size: 1.5em;
+    font-weight: bold;
+    word-spacing: 2em;
+    line-height: 2em;
+  }
+
+  .recommend__tagcloud a {
+    text-decoration: none;
+    color: black
+  }
+
 }
