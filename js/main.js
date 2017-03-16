@@ -26,11 +26,11 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
-  [ `Basic Portfolio`,
-    `work-samples/aerial/index.html`,
-    `img/portfolio-aerial.png`,
+  [ `Deliveroo build`,
+    `work-samples/deliveroo/index.html`,
+    `img/deliveroo.png`,
     `https://github.com/BGZStephen/mock-ups/tree/master/aerial`,
-    `Simple, flat responsive build including social media icons`
+    `A rebuild of the deliveroo site, made to be responsive`
   ],
   [ `SaaS site re-build`,
     `work-samples/saas-site/index.html`,
