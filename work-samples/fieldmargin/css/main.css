@@ -126,8 +126,42 @@
   width: 100%;
 }
 
+.features__container {
+  width: 100%;
+  padding: 20px;
+}
+
+.feature__container {
+  width: 100%;
+}
+
+.features__intro {
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.feature__break {
+  width: 20%;
+  margin: 30px auto;
+  border-top: 2px solid #ebbc00;
+  color: yellow;
+}
+
+.feature__intro {
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.feature__description {
+  margin-bottom: 20px;
+}
+
 .feature__img {
   width: 100%;
+  margin-top: 10px;
 }
 
 /* testimonials */
