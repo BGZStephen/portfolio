@@ -29,7 +29,7 @@ const workExamples = [
   [ `Deliveroo build`,
     `work-samples/deliveroo/index.html`,
     `img/deliveroo.png`,
-    `https://github.com/BGZStephen/mock-ups/tree/master/aerial`,
+    `https://github.com/BGZStephen/portfolio/tree/master/work-samples/deliveroo`,
     `A rebuild of the deliveroo site, made to be responsive`
   ],
   [ `SaaS site re-build`,
@@ -43,6 +43,12 @@ const workExamples = [
     `img/portfolio-forty.png`,
     `https://github.com/BGZStephen/mock-ups/tree/master/forty`,
     `Responsive single page theme, re-built from scratch by me.`
+  ],
+  [ `FieldMargin responsive mock-up`,
+    `work-samples/fieldmargin/index.html`,
+    `img/portfolio-fieldmargin.png`,
+    `https://github.com/BGZStephen/portfolio/tree/master/work-samples/fieldmargin`,
+    `Fully responsive mock-up, based on the original Fieldmargin site.`
   ],
   [ `Responsive blog post template`,
     `work-samples/future-imperfect/index.html`,
