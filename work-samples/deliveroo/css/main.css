@@ -106,10 +106,14 @@ body {
 .header__find {
   width: 100%;
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .header__find__label {
   display: block;
+  width: 100%;
   margin-bottom: 8px;
   color: white;
 }
