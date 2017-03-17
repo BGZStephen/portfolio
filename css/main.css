@@ -148,6 +148,10 @@ h3 {
   position: relative;
 }
 
+img {
+  height: 300px;
+}
+
 .overlay {
   display: none;
 }

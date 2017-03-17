@@ -76,6 +76,12 @@ const labExamples = [
     `img/fibonacci.png`,
     `https://github.com/BGZStephen/fibonacci-sequence`,
     `A simple app to display the first 100 iterations of the fibonacci sequence`
+  ],
+  [ `JavaScript Calculator`,
+    `code-lab/javascript-calculator/index.html`,
+    `img/javascript-calculator.png`,
+    `https://github.com/BGZStephen/javascript-calculator`,
+    `A JavaScript Calculator built from scratch without the use of a tutorial`
   ]
 ]
 
