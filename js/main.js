@@ -26,6 +26,12 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
+  [ `Agency Site build`,
+    `work-samples/agency-site/index.html`,
+    `img/agency-portfolio.png`,
+    `https://github.com/BGZStephen/portfolio/tree/master/work-samples/agency-site`,
+    `A mock-up for a digital agency site comprising services, portfolio, about, team & contact`
+  ],
   [ `Deliveroo build`,
     `work-samples/deliveroo/index.html`,
     `img/deliveroo.png`,
@@ -38,17 +44,17 @@ const workExamples = [
     `https://github.com/BGZStephen/mock-ups/tree/master/saas%20site`,
     `SaaS Site rebuild based on LoyaltyLion (start-up)`
   ],
-  [ `Forty Responsive build`,
-    `work-samples/forty/index.html`,
-    `img/portfolio-forty.png`,
-    `https://github.com/BGZStephen/mock-ups/tree/master/forty`,
-    `Responsive single page theme, re-built from scratch by me.`
-  ],
   [ `FieldMargin responsive mock-up`,
     `work-samples/fieldmargin/index.html`,
     `img/portfolio-fieldmargin.png`,
     `https://github.com/BGZStephen/portfolio/tree/master/work-samples/fieldmargin`,
     `Fully responsive mock-up, based on the original Fieldmargin site.`
+  ],
+  [ `Forty Responsive build`,
+    `work-samples/forty/index.html`,
+    `img/portfolio-forty.png`,
+    `https://github.com/BGZStephen/mock-ups/tree/master/forty`,
+    `Responsive single page theme, re-built from scratch by me.`
   ],
   [ `Responsive blog post template`,
     `work-samples/future-imperfect/index.html`,
