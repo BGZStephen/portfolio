@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
   </head>
   <body>
-    <div class="intro__container">
+    <div id="home" class="intro__container">
       <div class="navbar__container">
-        <span class="logo">Agencia</span>
+        <a href="#home"><span class="logo">Agencia</span></a>
         <div class="menu__container">
           <ul class="menu__list">
-            <li class="menu__item">SERVICES</li>
-            <li class="menu__item">PORTFOLIO</li>
-            <li class="menu__item">ABOUT</li>
-            <li class="menu__item">TEAM</li>
-            <li class="menu__item">CONTACT</li>
+            <a href="#services"><li class="menu__item">SERVICES</li></a>
+            <a href="#portfolio"><li class="menu__item">PORTFOLIO</li></a>
+            <a href="#about"><li class="menu__item">ABOUT</li></a>
+            <a href="#team"><li class="menu__item">TEAM</li></a>
+            <a href="#contact"><li class="menu__item">CONTACT</li></a>
           </ul>
         </div>
         <button class="menu__toggle">MENU</button>
@@ -28,7 +29,7 @@
         <button class="intro__button">TELL ME MORE</button>
       </div>
     </div>
-    <div class="services__container">
+    <div id="services" class="services__container">
       <h2 class="services__intro">SERVICES</h2>
       <p class="services__description">Lorem ipsum dolor sit amet consectetur.</p>
       <div class="services__item__container">
@@ -53,7 +54,7 @@
         <p class="services__item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
       </div>
     </div>
-    <div class="portfolio__container">
+    <div id="portfolio" class="portfolio__container">
       <h2 class="portfolio__intro">PORTFOLIO</h2>
       <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur.</p>
       <div class="portfolio__item__container">
@@ -99,7 +100,7 @@
         <p class="services__item__description">Website Design</p>
       </div>
     </div>
-    <div class="about__container">
+    <div id="about" class="about__container">
       <h2 class="about__intro">ABOUT</h2>
       <p class="about__description">Lorem ipsum dolor sit amet consectetur.</p>
       <div class="about__item__container">
@@ -156,7 +157,7 @@
         </div>
       </div>
     </div>
-    <div class="team__container">
+    <div id="team" class="team__container">
       <h2 class="team__intro">OUR AMAZING TEAM</h2>
       <p class="team__description">Lorem ipsum dolor sit amet consectetur.</p>
       <div class="team__items__container">
@@ -199,7 +200,7 @@
         </div>
       </div>
     </div>
-    <div class="contact__container">
+    <div id="contact" class="contact__container">
       <h2 class="contact__intro">CONTACT US</h2>
       <p class="contact__description">Lorem ipsum dolor sit amet consectetur.</p>
       <form class="contact__form">
