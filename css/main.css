@@ -148,7 +148,7 @@ h3 {
   position: relative;
 }
 
-img {
+.image-container img {
   max-height: 300px;
 }
 
