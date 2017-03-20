@@ -193,6 +193,10 @@ img {
   margin-bottom: 40px;
 }
 
+.stats-container img {
+  width: 180px;
+}
+
 .more-results {
   margin-top: 80px;
   background: none;
