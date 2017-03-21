@@ -32,6 +32,12 @@ const workExamples = [
     `https://github.com/BGZStephen/portfolio/tree/master/work-samples/agency-site`,
     `A mock-up for a digital agency site comprising services, portfolio, about, team & contact`
   ],
+  [ `Start Bootstrap theme build`,
+    `work-samples/start-bootstrap-theme/index.html`,
+    `img/start-bootstrap-theme.png`,
+    `https://github.com/BGZStephen/start-bootstrap-theme`,
+    `A build based on a Bootstrap theme, built from the ground up with HTML 5, CSS 3, Sass & vanilla JS.`
+  ],
   [ `Deliveroo build`,
     `work-samples/deliveroo/index.html`,
     `img/deliveroo.png`,
@@ -44,23 +50,17 @@ const workExamples = [
     `https://github.com/BGZStephen/mock-ups/tree/master/saas%20site`,
     `SaaS Site rebuild based on LoyaltyLion (start-up)`
   ],
-  [ `FieldMargin responsive mock-up`,
+  [ `FieldMargin responsive build`,
     `work-samples/fieldmargin/index.html`,
     `img/portfolio-fieldmargin.png`,
     `https://github.com/BGZStephen/portfolio/tree/master/work-samples/fieldmargin`,
     `Fully responsive mock-up, based on the original Fieldmargin site.`
   ],
-  [ `Forty Responsive build`,
+  [ `Forty responsive build`,
     `work-samples/forty/index.html`,
     `img/portfolio-forty.png`,
     `https://github.com/BGZStephen/mock-ups/tree/master/forty`,
     `Responsive single page theme, re-built from scratch by me.`
-  ],
-  [ `Responsive blog post template`,
-    `work-samples/future-imperfect/index.html`,
-    `img/portfolio-future.png`,
-    `https://github.com/BGZStephen/mock-ups/tree/master/future%20imperfect`,
-    `Responsive blog post template which displays user author details and likes / shares / categories`
   ]
 ]
 
@@ -104,8 +104,8 @@ const examplesBuilder = (container, header, url, img, code, description) => {
           <a href="` + url + `" target="_blank"><img class="work-thumbnail" src=` + img + `></a>
           <div class="overlay">
             <div class="overlay-links">
-              <a href="` + code + `" target="_blank"><p>CODE</p></a>
-              <a href="` + url + `" target="_blank"><p>VISIT</p></a>
+              <a href="` + code + `" target="_blank"><p class="overlay-links-p">CODE</p></a>
+              <a href="` + url + `" target="_blank"><p class="overlay-links-p">VISIT</p></a>
             </div>
           </div>
         </div>

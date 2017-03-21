@@ -184,7 +184,6 @@ h3 {
   }
 
   .overlay-links {
-
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.1s linear;
@@ -199,15 +198,15 @@ h3 {
     font-size: 1em;
     text-decoration: none;
     border-radius: 5px;
-    border: 0.1em solid white;
+    border: 2px solid white;
     transition: border .5s ease;
   }
 
   .overlay-links a:hover {
-    border: 0.1em solid red;
+    border: 2px solid red;
   }
 
-  .overlay-links p {
+  .overlay-links-p {
     color: white !important;
     font-weight: bolder;
     font-weight: 800;
