@@ -26,6 +26,12 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
+  [ `illdy theme build`,
+    `work-samples/illdy/index.html`,
+    `img/portfolio-illdy.png`,
+    `https://github.com/BGZStephen/illdy-theme`,
+    `A clean, responsive front-end, built from the ground up with HTML 5, CSS 3, Sass jQuery (Slick carousel / smooth scrolling).`
+  ],
   [ `Agency Site build`,
     `work-samples/agency-site/index.html`,
     `img/agency-portfolio.png`,
