@@ -26,7 +26,12 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
-  [ `illdy theme build`,
+  [ `zerif theme build`,
+    `work-samples/zerif-theme/index.html`,
+    `img/portfolio-zerif.png`,
+    `https://github.com/BGZStephen/zerif-rebuild`,
+    `A front-end build based on the popular Zerif theme design. built using HTML 5, CSS 3, OO JavaScript (menu toggles), Jquery (Slick / Smooth scrolling), Sass. Fully responsive.`
+  ],[ `illdy theme build`,
     `work-samples/illdy/index.html`,
     `img/portfolio-illdy.png`,
     `https://github.com/BGZStephen/illdy-theme`,
