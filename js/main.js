@@ -26,12 +26,19 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
+  [ `Recipe Book AngularJS Application`,
+    `work-samples/angular-recipe-book-app/index.html`,
+    `img/portfolio-recipe-book.png`,
+    `https://github.com/BGZStephen/angular-udemy/tree/master/recipe-book`,
+    `A single page application based upon a Recipe Book, you can add, edit, and delete recipes which will be stored on a Firebase NoSQL database. Tech used: Angular(4.0), HTML 5, CSS 3, Bootstrap, Firebase NoSQL DB`
+  ],
   [ `zerif theme build`,
     `work-samples/zerif-theme/index.html`,
     `img/portfolio-zerif.png`,
     `https://github.com/BGZStephen/zerif-rebuild`,
     `A front-end build based on the popular Zerif theme design. built using HTML 5, CSS 3, OO JavaScript (menu toggles), Jquery (Slick / Smooth scrolling), Sass. Fully responsive.`
-  ],[ `illdy theme build`,
+  ],
+  [ `illdy theme build`,
     `work-samples/illdy/index.html`,
     `img/portfolio-illdy.png`,
     `https://github.com/BGZStephen/illdy-theme`,
