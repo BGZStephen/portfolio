@@ -83,6 +83,12 @@ const workExamples = [
 ]
 
 const labExamples = [
+  [ `GitHub Search Application`,
+    `code-lab/github-search/index.html`,
+    `img/portfolio-github-search.png`,
+    `https://github.com/BGZStephen/angular-github-search-app`,
+    `An Angular application built using Angular 4.0, connecting up with the public github API. Enter a username and you'll be brought a multitude of information about the user.`
+  ],
   [ `FizzBuzz`,
     `code-lab/fizzbuzz/index.html`,
     `img/fizzbuzz.png`,
