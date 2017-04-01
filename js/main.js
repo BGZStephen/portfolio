@@ -26,12 +26,6 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
-  [ `Recipe Book AngularJS Application`,
-    `work-samples/angular-recipe-book-app/index.html`,
-    `img/portfolio-recipe-book.png`,
-    `https://github.com/BGZStephen/angular-udemy/tree/master/recipe-book`,
-    `A single page application based upon a Recipe Book, you can add, edit, and delete recipes which will be stored on a Firebase NoSQL database. Tech used: Angular(4.0), HTML 5, CSS 3, Bootstrap, Firebase NoSQL DB`
-  ],
   [ `zerif theme build`,
     `work-samples/zerif-theme/index.html`,
     `img/portfolio-zerif.png`,
@@ -83,6 +77,18 @@ const workExamples = [
 ]
 
 const labExamples = [
+  [ `Recipe Book Angular Application`,
+    `work-samples/angular-recipe-book-app/index.html`,
+    `img/portfolio-recipe-book.png`,
+    `https://github.com/BGZStephen/angular-udemy/tree/master/recipe-book`,
+    `A single page application based upon a Recipe Book, you can add, edit, and delete recipes which will be stored on a Firebase NoSQL database. Tech used: Angular(4.0), HTML 5, CSS 3, Bootstrap, Firebase NoSQL DB`
+  ],
+  [ `Spotify Search Angular Application`,
+    `code-lab/angular-spotify-app/index.html`,
+    `img/portfolio-spotify-app.png`,
+    `https://github.com/BGZStephen/angular-spotify-app`,
+    `A Spotify Search Application built using Angular 4.0 using the Spotify Web API. Simply enter an artists name and view their albums / preview their tracks`
+  ],
   [ `GitHub Search Application`,
     `code-lab/github-search/index.html`,
     `img/portfolio-github-search.png`,
