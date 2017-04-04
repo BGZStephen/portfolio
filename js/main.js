@@ -77,6 +77,12 @@ const workExamples = [
 ]
 
 const labExamples = [
+  [ `Movie Search Application`,
+    `code-lab/movie-search/index.html`,
+    `img/portfolio-movie-search.png`,
+    `https://github.com/BGZStephen/angular-movie-app`,
+    `A movie database search application, built using Angular (4.0), it makes use of Routing, Http parsing, structural directives and is fully responsive to boot!`
+  ],
   [ `Recipe Book Angular Application`,
     `work-samples/angular-recipe-book-app/index.html`,
     `img/portfolio-recipe-book.png`,
