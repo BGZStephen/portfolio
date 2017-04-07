@@ -77,6 +77,12 @@ const workExamples = [
 ]
 
 const labExamples = [
+  [ `ngNews - Angular News Application`,
+    `code-lab/angular-news-app/index.html`,
+    `img/portfolio-angular-news-app.png`,
+    'https://github.com/BGZStephen/angular-news-application',
+    `An application that polls multiple news sources utilising the NewsApi.org API, categories: Tech, Entertainment, Sport & Business. Built using Angular 4.0, HTML 5, CSS 3 and some OO JS. Fully responsive`
+  ],
   [ `Movie Search Application`,
     `code-lab/movie-search/index.html`,
     `img/portfolio-movie-search.png`,
