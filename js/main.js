@@ -26,6 +26,12 @@
 // arrays for both work samples and lab samples
 
 const workExamples = [
+  [ `ngGaming Angular Application`,
+    `work-samples/nggaming/index.html`,
+    `img/portfolio-nggaming.png`,
+    `https://github.com/BGZStephen/ng-gaming`,
+    `A web application built using Angular 4.0, displays the latest games from a range of genres, blog articles, reviews, youtube videos & screenshots. Additionally, users can search the 21,000 item database`
+  ],
   [ `zerif theme build`,
     `work-samples/zerif-theme/index.html`,
     `img/portfolio-zerif.png`,
