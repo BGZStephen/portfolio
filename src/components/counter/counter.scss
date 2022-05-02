@@ -1,0 +1,16 @@
+.counter {
+  display: flex;
+
+  .dial {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    span:first-of-type {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+}

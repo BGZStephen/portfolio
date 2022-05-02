@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}

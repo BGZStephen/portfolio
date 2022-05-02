@@ -1,7 +1,8 @@
 import { differenceInSeconds, differenceInMinutes, differenceInHours, differenceInCalendarDays, differenceInMonths, differenceInYears } from "date-fns";
 import React, { useEffect, useState } from "react";
+import "./counter.scss";
 
-interface CounterDials { 
+interface CounterDials {
   seconds: number;
   minutes: number;
   hours: number;
@@ -59,23 +60,53 @@ const Counter: React.FC<{}> = () => {
 
   return (
     <div className="counter">
-      <div className="years">
-        {dials.years}
+      <div className="dial">
+        <span>
+          {dials.years}
+        </span>
+        <span>
+          Years
+        </span>
       </div>
-      <div className="months">
-        {dials.months}
+      <div className="dial">
+        <span>
+          {dials.months}
+        </span>
+        <span>
+          Months
+        </span>
       </div>
-      <div className="days">
-        {dials.days}
+      <div className="dial">
+        <span>
+          {dials.days}
+        </span>
+        <span>
+          Days
+        </span>
       </div>
-      <div className="hours">
-        {dials.hours}
+      <div className="dial">
+        <span>
+          {dials.hours}
+        </span>
+        <span>
+          Hours
+        </span>
       </div>
-      <div className="minutes">
-        {dials.minutes}
+      <div className="dial">
+        <span>
+          {dials.minutes}
+        </span>
+        <span>
+          Minutes
+        </span>
       </div>
-      <div className="seconds">
-        {dials.seconds}
+      <div className="dial">
+        <span>
+          {dials.seconds}
+        </span>
+        <span>
+          Seconds
+        </span>
       </div>
     </div>
   )
